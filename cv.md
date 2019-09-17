@@ -39,3 +39,12 @@ ___
 ___
 ###  Experience: ###
 *...pending real experience on real projects...*
+___
+###  Education: ###
+* Graduated from BSUIR at FACULTY OF INNOVATIVE LIFELONG LEARNING 
+* Basic html / css course at school [Myfreedom](https://myfreedom.by)
+* [Codeacademy](https://www.codecademy.com) - HTML/CSS Courses
+___
+###  English: ###
+Basic knowledge of English is between **A1** and **A2**. 
+*In the process of improving language skills.* 
