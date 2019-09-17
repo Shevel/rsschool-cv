@@ -1,1 +1,1 @@
-# rsschool-cv
+[My CV](https://shevel.github.io/rsschool-cv/cv)
