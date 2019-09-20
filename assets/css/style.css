@@ -1,0 +1,80 @@
+/* reset padding ena margin*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+/*   my css*/
+body {
+    background-color: azure;
+}
+.container {
+    font-family: 'Lato','Helvetica', sans-serif;
+    height: 100%;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    color: white;
+    background-color: rgb( 10, 76 , 111 );
+}
+.firstName h1 {
+    text-align: left;
+    margin-left: 50px;
+}
+.myContactInfo {
+    margin: 20px;
+    display: inline-block;
+    padding: 10px 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.bio {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid white;
+}
+.firstName {
+    margin: 0 20px;
+    border-bottom: 1px solid white;
+}
+.cv_img {
+    width: 150px;
+    border: 3px dotted white;
+    border-radius: 100%;
+}
+.cv {
+    display: inline-block;
+}
+.experience {
+    margin: 0 20px;
+}
+.experience article {
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+}
+.experience article li {
+    margin-left: 40px;
+    padding: 5px 0;
+}
+.skills li {
+    text-decoration: underline;
+}
+.education li a {
+    color: rgb(255, 238, 7);
+    font-weight: 900;
+}
