@@ -17,13 +17,18 @@ time, mark, audio, video {
 	border: 0;
 }
 /*   my css*/
+body {
+    background-color: azure;
+}
 .container {
-    font-family: 'Lato','Helvetica' sans-serif;
+    font-family: 'Lato','Helvetica', sans-serif;
     height: 100%;
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
     background-color: aliceblue;
+    color: white;
+    background-color: rgb( 10, 76 , 111 );
 }
 .firstName h1 {
     text-align: left;
@@ -32,7 +37,7 @@ time, mark, audio, video {
 .myContactInfo {
     margin: 20px;
     display: inline-block;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px;
     border: 5px solid white;
     border-radius: 10px;
 }
@@ -55,7 +60,21 @@ time, mark, audio, video {
 .cv {
     display: inline-block;
 }
-header {
-    color: white;
-    background-color: rgb( 10, 76 , 111 );
+.experience {
+    margin: 0 20px;
+}
+.experience article {
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+}
+.experience article li {
+    margin-left: 40px;
+    padding: 5px 0;
+}
+.skills li {
+    text-decoration: underline;
+}
+.education li a {
+    color: rgb(255, 238, 7);
+    font-weight: 900;
 }
